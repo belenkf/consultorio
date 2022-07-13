@@ -59,6 +59,10 @@ header{
     {color: #3e6363;
         transition: 0,4s;/* como lo cambio a verde?  */
     }
+#carouselExampleSlidesOnly{ 
+    text-align: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
 main{ 
     background-image: url(../img/fondo\ pared\ gris.JPG);
     background-size:cover;
@@ -142,15 +146,25 @@ faltan link e iconos*/
 
 /* footer */
 
-
 #footer { 
     color: #f0f8ff;
-    margin-top: 2%;
-    padding: 5%;
     text-align: center; 
-
 }
-#facebook {
-    background-image: url(./img/icono\ facebook.JPG);
+.facebook{ 
+    font-size: 3em;
+    color: #f0f8ff;
+    background-color: #86bebe;
 }
- 
+.Instagram{ 
+    font-size: 3em;
+    color: #f0f8ff;
+    background-color: #86bebe;
+}
+.whatsapp{ 
+    font-size: 3em;
+    color: #fff;
+}
+.whatsapp:hover{ 
+    color: #0ef734;
+    background-color: #f7fcfc;
+}
