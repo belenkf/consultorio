@@ -13,11 +13,11 @@
         ruby-position: inline;
     }
     h2{
-        color:#011111;
+        color:#050a0a;
         margin-bottom: 20px;
         padding: 2%;
         text-decoration:solid;
-        text-shadow: #337070;
+        text-shadow: #8e9696 solid 1px;
         text-transform: uppercase;
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
         }
@@ -25,10 +25,10 @@
         background-color: aliceblue;
         margin-block-start: 4%;
         }
-    .p{ 
-    color: #f0f8ff;
-    margin: 10%;
-     }
+    p{ 
+            color: #f0f8ff;
+            margin: 10%;
+             }
 /*index*/
 header{ 
     margin-top: 10px;
@@ -97,7 +97,8 @@ main{
 
 /* turnos */
 #turnos{ 
-    color: #3e6363;
+    color: #011111;
+    text-shadow: #8e9696 solid 1px;
     margin-inline-start: 10%;
     margin-inline-end: 10%;
     padding: auto;  
@@ -146,19 +147,20 @@ faltan link e iconos*/
 
 /* footer */
 
-#footer { 
-    color: #f0f8ff;
-    text-align: center; 
+footer{
+    text-align: center;
 }
 .facebook{ 
     font-size: 3em;
-    color: #f0f8ff;
-    background-color: #86bebe;
+    color: #fff;
 }
 .Instagram{ 
     font-size: 3em;
-    color: #f0f8ff;
-    background-color: #86bebe;
+    color: #fff ;
+}
+.Instagram:hover{ 
+    color: #f80df8;
+    background-color: #a878f5;
 }
 .whatsapp{ 
     font-size: 3em;
