@@ -21,14 +21,18 @@
         text-transform: uppercase;
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
         }
+    h2:hover{ 
+        color: #b2ecec;
+        transition: 5ms;
+      }
     h3{ color:#045050;
         background-color: aliceblue;
         margin-block-start: 4%;
         }
     p{ 
-            color: #f0f8ff;
-            margin: 10%;
-             }
+        color: #f0f8ff;
+        margin: 10%;
+         }
 /*index*/
 header{ 
     margin-top: 10px;
@@ -44,8 +48,8 @@ header{
         position: relative;
         margin: 2%;
         padding-top: 3%;
-        /* se mueve CON BOOS? */
     }
+
 .nav-item{
         background-color: #86bebe;
         margin-inline-start: 10%;
@@ -55,13 +59,14 @@ header{
         transition: 4s;
         /*  */
     }
-.button:hover
-    {color: #3e6363;
+    button:hover{
+        color: #3e6363;
         transition: 0,4s;/* como lo cambio a verde?  */
     }
 #carouselExampleSlidesOnly{ 
     text-align: center;
-    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    transition: cubic-bezier(0.5, 0.5, 0.5, );
+
 }
 main{ 
     background-image: url(../img/fondo\ pared\ gris.JPG);
@@ -113,14 +118,24 @@ main{
     padding: 1%;
     text-decoration: wavy; letter: spacing 1px;
     list-style-type: lower-greek; font-family: 'Heebo', sans-serif;
+
     }
+.profesionales:hover{
+    color: #f79054;
+    transition: 3ms;
+}
+.label:hover{
+    color: #86bebe;
+}  
+
 .franjahoraria{ 
     color: #f0f8ff;
+    
     margin-top: 1px;
     padding: 1%;
     text-align: center;
-    text-decoration: wavy; letter: spacing 1px;mm;
     list-style-type: lower-greek; font-family: 'Heebo', sans-serif;
+    
     }
     .botones{
         /* no me lo cambia? */

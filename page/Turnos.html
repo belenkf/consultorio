@@ -56,14 +56,14 @@
 <main id="turnos">
     <h2 >Reserve aquí su turno</h2> 
     <form method="" action="" class="reservatuturno" >
-        <p1><label for="nombre"></label><input type="text" name="nombre" placeholder="Nombre"></p>
+        <p1><label for="nombre" id="x1"></label><input type="text" name="nombre" placeholder="Nombre"></p>
         
-        <p2><label for="apellido"></label> <input type="text" name="apellido" placeholder="Apellido:"></p>
+        <p2><label for="apellido" id="x2"></label> <input type="text" name="apellido" placeholder="Apellido:"></p>
       
-        <p3><label for="Teléfono"></label> <input type="text" required pattern="[0-9]+" name="telefono" placeholder="Teléfono"  name="Teléfono:" ></p>
+        <p3><label for="Teléfono" id="x3"></label> <input type="text" required pattern="[0-9]+" name="telefono" placeholder="Teléfono"  name="Teléfono:" ></p>
         
         <nav class="profesionales">
-Profesional: 
+Elija un profesional: 
         <select id="Profesionales" name="Profesionales">
             <option value="Leo"> Leonardo Batipeda</option>
             <option value="Mauro"> Mauro Vega</option>
@@ -72,7 +72,7 @@ Profesional:
         </select>
         </nav>
         <nav class="franjahoraria">
-        Franja horaria de preferencia:</br>
+          <i>Franja horaria de preferencia:</i></br>
         Mañana: <input type="radio" name="Mañana"> </br>
         Tarde: <input type="radio" name="Tarde"> </br>
         Noche: <input type="radio" name="Noche"> </br>
