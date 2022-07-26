@@ -3,20 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* INDEX */
 header{ 
     position: relative;
     display: flex;
     margin: 10px;
     padding: 1%;
 }
+.logo_link{
+    position: relative;
+    margin-bottom: 0%;
+}
 
-#logolink{
-        size: 30px; 
-        position: relative;
-        margin-left: 10px;
-        margin-top: 10%;
-    }
 h1{ 
     text-transform:uppercase;
     color: #86bebe;
@@ -25,49 +23,64 @@ h1{
     z-index: 1;
     margin-top: 5px;
     margin-left: 10%;
-    margin-right: 50px;
+    margin-right: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-h2{
-    margin-bottom: 20px;
-    padding: 2%;
-    text-decoration:solid;
-    text-shadow: #8e9696 solid 1px;
-    text-transform: uppercase;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-}
-h2:hover{ 
-        color: #b2ecec;
-        transition: 5ms;
-      }
-h3{ color:#045050;
-        background-color: aliceblue;
-        margin-block-start: 4%;
-        }
-p{ 
-        color: #f0f8ff;
-        margin: 10%;
-         }
-/*index*/
 
 .nav-item{
-        background-color: #86bebe;
-        margin-inline-start: 10%;
-        padding: 2px;
-        text-align: center;
-        text-decoration:#045050;
-        transition: 4s;
-        /*  */
-    }
-    button:hover{
-        color: #3e6363;
-        transition: 0,4s;/* como lo cambio a verde?  */
-    }
-#carouselExampleSlidesOnly{ 
+    background-color: #86bebe;
+    margin-inline-start: 10%;
+    padding: 2px;
     text-align: center;
-    transition: cubic-bezier(0.5, 0.5, 0.5, );
+    text-decoration:#045050;
+    transition: 4s;
+    /*  */
+}
+button:hover{
+    color: #3e6363;
+    text-decoration: #045050;
+    transition: 0,4s;/* como lo cambio a verde?  */
+}
+    
+/* aside */
+.whatsapp{
+    display: flex;
+    z-index: 999;
+    align-items: stretch;
 
 }
+
+.whatsapp-{
+    color: #0ef734;
+    font-size: 3em;
+
+}
+.whatsapp-:hover{ 
+    color: #0ef734;
+    background-color: #f7fcfc;
+}
+
+.redes{
+    text-align: center;
+    display: flex;
+
+}
+.facebook{ 
+    font-size: 3em;
+    color: #fff;
+}
+.Instagram{ 
+    font-size: 3em;
+    color: #fff ;
+}
+.Instagram:hover{ 
+    color: #f80df8;
+    background-color: #a878f5;
+}
+
+
+
+/* turnos */
 main{ 
     background-image: url(../img/fondo\ pared\ gris.JPG);
     background-size:cover;
@@ -89,7 +102,8 @@ main{
         justify-content: center;
 
     }
-.contenedor    {margin: 20px;
+.contenedor    {
+    margin: 20px;
     padding: 2px;
     border: 4px solid #070707;
     box-shadow: #011111;
@@ -100,7 +114,7 @@ main{
     justify-content: center;
 }
 
-/* turnos */
+
 #turnos{ 
     color: #011111;
     text-shadow: #8e9696 solid 1px;
@@ -116,7 +130,6 @@ main{
     color: #f0f8ff;
     margin-top: 1px;
     padding: 1%;
-    text-decoration: wavy; letter: spacing 1px;
     list-style-type: lower-greek; font-family: 'Heebo', sans-serif;
 
     }
@@ -129,13 +142,11 @@ main{
 }  
 
 .franjahoraria{ 
-    color: #f0f8ff;
-    
+    color: #e6ae17ad;
     margin-top: 1px;
     padding: 1%;
     text-align: center;
     list-style-type: lower-greek; font-family: 'Heebo', sans-serif;
-    
     }
     .botones{
         /* no me lo cambia? */
@@ -151,40 +162,33 @@ main{
     padding-right: 5%;
     }
 
-
-
+    #carouselExampleSlidesOnly{ 
+        text-align: center;
+        transition: cubic-bezier(0.5, 0.5, 0.5, );
+    }
+    
+    h2{
+        margin-bottom: 20px;
+        padding: 2%;
+        text-decoration:solid;
+        text-shadow: #8e9696 solid 1px;
+        text-transform: uppercase;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    }
+    h2:hover{ 
+            color: #b2ecec;
+            transition: 5ms;
+          }
+    h3{ background-image: url(../img/fondo\ pared\ gris.JPG);
+        text-align: center;
+            margin-block-start: 4%;
+            }
+    p{ 
+            color: #f0f8ff;
+            margin: 10%;
+             }
    
 /* obras sociales 
 faltan link e iconos*/
 /* noticias */
 /* Galeria */
-
-
-/* footer */
-
-footer{
-    text-align: center;
-}
-.facebook{ 
-    font-size: 3em;
-    color: #fff;
-}
-.Instagram{ 
-    font-size: 3em;
-    color: #fff ;
-}
-.Instagram:hover{ 
-    color: #f80df8;
-    background-color: #a878f5;
-}
-.whatsapp_{ 
-    font-size: 3em;
-    color: #fff;
-    display: flex;
-    z-index: 999;
-    margin-block-start: 0%;
-}
-.whatsapp_:hover{ 
-    color: #0ef734;
-    background-color: #f7fcfc;
-}

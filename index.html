@@ -10,7 +10,7 @@
     <title>CRF</title> 
 
     <!-- link de estilo -->
-    <link rel="stylesheet" href="style.ccs/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- link de fuente-->
         <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +20,9 @@
 </head>
 
 <body>
-  <header id="header"> 
+  <header> 
     <div class="logolink"> 
-      <a href="./consultorio/page/Inicio.html"><img src="img/CRF.jpg" width="150px" alt="logo del consultorio">
+      <a href="./consultorio/page/Inicio.html" class="logo_link"><img src="img/CRF.jpg" width="100px" alt="logo del consultorio">
       </a>
     </div>  
     <h1>centro de rehabilitacion funcional</h1>
@@ -62,44 +62,23 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <button class="btn btn-outline-success" type="submit">INGRESAR</button>
+        <button class="btn btn-outline-success" type="submit">INGRESO PARA USUARIOS</button>
       </form>
     </div>
   </div>
 </nav>
-<element>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-        <div class="carousel-item active carousel-item-start">
-            <img src="./img/LOGO LEYENDA.JPG" class="logoleyenda" alt="logoleyenda" width="300px">
+<div>
+<section class="img-1">
+    <div id="Texto1">
+            <h3>algo de lo que hacen nuestros pacientes</h3>
         </div>
-         <div class="carousel-item carousel-item-next carousel-item-start">
-            <img src="./img/NOSOTROS.JPG" class="nosotros" alt="nosotros"width="300px">
-        </div>
-         <div class="carousel-item">
-            <img src="./img/pilates.PNG" class="pilates" alt="pilates"width="300px">
-        </div>
+    <div id="imagen1">
+            <video class="video1" src="../consultorio/img/videos/sentadillaiso.mp4" alt="sentadillaiso">
     </div>
-</elemen> 
-<h2 class="títuloprincipal">Nos dedicamos a cuidarte de forma integral y funcional porque el cuerpo es TODO</h2>
- <!-- ver si lo agrego
-     <img class="" src="" alt="">
-            <section class="img-1">
-                <div id="Texto1"
-                    <p id="texto_1">Algo de Historia o lo que querrarmos poner</p>  
-                        <h1 id="h1">Hola</h1>
-                        <h3>somos y aca estamos!</h3>
-                    </div>
-                <div id="imagen1">
-                    <figure>
-                        <img class="" src="" alt="">
-                    </figure>
-                </div>
-            </section>
-    <div id="separacion">
-    </div>
- -->       
-       
+</section>
+<div id="separacion">
+</div>
+<h2 class="títuloprincipal">Nos dedicamos a cuidarte de forma integral</h2>       
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
@@ -108,12 +87,18 @@
 <aside class="whatsapp">
   <a class="qlwapp-toggle" data-action="open" data-phone="5493407401337" data-message="" href="https://web.whatsapp.com/send?phone=5493407401337&amp;text=" target="_blank">
     <i class="whatsapp_" data-action="close"></i>
-      <span class="whatsapp_"> <i class="fa-brands fa-whatsapp"></i></span>
+      <span class="whatsapp-"> <i class="fa-brands fa-whatsapp"></i></span>
   </a>
+  
+<div class="redes">
+  <a href= 
+  "https://es-la.facebook.com/pg/LeonardoBatipeda/posts/" class="facebook"
+  target="_blank"> <i class="fa-brands fa-facebook-square"> </i></a>
+  <a href="https://www.instagram.com/crframallo/" class="Instagram"
+  target="_blank"><i class="fa-brands fa-instagram"></i></a>
 </aside>
-
 <!-- link pagina JS -->
-<script src="./java/style.js"></script>
+<script src="./js/style.js"></script>
 <!-- link fontaweasome -->
 <script src="https://kit.fontawesome.com/d2160c02e1.js" crossorigin="anonymous"></script>
 
@@ -123,16 +108,10 @@
 
 
 <footer id="footer"> 
-    <div class="footer_">
-    <a href= 
-    "https://es-la.facebook.com/pg/LeonardoBatipeda/posts/" class="facebook"
-    target="_blank"> <i class="fa-brands fa-facebook-square"> </i></a>
-    <a href="https://www.instagram.com/crframallo/" class="Instagram"
-    target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    <p>© CRF 2022  - Todos los derechos reservados</p> 
-</div>
-    
-    
+  <nav class="informacion">  
+    <p>Encontranos en: Irigoyen 967 <br> Villa Ramallo</p>
+    <p>© CRF 2022  - Todos los derechos reservados</p>
+  </nav>
 </footer>
 
 </html>

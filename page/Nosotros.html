@@ -10,8 +10,8 @@
     <title>CRF</title>
     
     <!-- link de estilo -->
-    <link rel="stylesheet" href="../style.ccs/style.css">
     <!-- link de fuente-->
+    <link rel="stylesheet" href="../css/style.css">
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
     <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
     <enlace href="https: //fonts.googleapis.com/css2? family= Heebo & display=swap" rel="hoja de estilo">
@@ -19,70 +19,87 @@
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <a href="../index.html"><img src="../img/logo solo.JPG" width="300px" alt="logo del consultorio"></a>
+  <header> 
+    <div class="logolink"> 
+      <a href="../index.html" class="logo_link"><img src="../img/CRF.jpg" width="100px" alt="logo del consultorio">
+      </a>
+    </div>  
+    <h1>centro de rehabilitacion funcional</h1>
+  </header>
 
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="page/Turnos.html" style="">Turnos</a></li>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./Obras Sociales.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Obras Sociales
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">OSDE</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">SWISS MEDICAL</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">IOMA</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">AVALIAN</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="que estás buscando" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="./Turnos.html">Turnos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pacientes.html">Pacientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./Obras Sociales.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Obras Sociales
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">OSDE</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">SWISS MEDICAL</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">IOMA</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">AVALIAN</a></li>
+            <li><hr class="dropdown-divider"></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
         </header>
 
         <main class="nuestroequipo">
             <h3>Nuestro equipo</h3>
-            <img src="/img/NOSOTROS.JPG" alt="foto del equipo" >
+            <img src="/img/NOSOTROS.JPG" alt="foto del equipo"width= 400px >
         </main>
         
-        <div class="galeriadefotos">
-         <input type="submit" value="Galeria de fotos" name="galería de fotos"> 
-         <a href="../page/Galería.html"></a>  
-        </div>
+        <element>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+              <div class="carousel-item active carousel-item-start">
+                  <img src="../img/crf con FMS.JPG" class="crf-fms" alt="crf-fms" width="300px">
+              </div>
+               <div class="carousel-item carousel-item-next carousel-item-start">
+                  <img src="../img/leoycachi.JPG" class="leoycachi" alt="leoycachi"width="300px">
+              </div>
+               <div class="carousel-item">
+                  <img src="../img/sentadilla.jpg" class="sentadilla" alt="sentadilla"width="300px">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/movilizacion.JPG" class="movilizacion" alt="movilizacion"width="300px">
+            </div>
+          </div>
+      </elemen> 
+      
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>        
-<!-- link pagina JS -->
-<script src="./java/style.js"></script>
-<!-- link fontaweasome -->
-<script src="https://kit.fontawesome.com/d2160c02e1.js" crossorigin="anonymous"></script>
+        <!-- link pagina JS -->
+        <script src="./java/style.js"></script> 
+        <!-- link fontaweasome -->
+        <script src="https://kit.fontawesome.com/d2160c02e1.js" crossorigin="anonymous"></script>
       </body>
 
 <footer id="footer"> 
-  <div class="footer_">
-      <a href= 
-      "https://es-la.facebook.com/pg/LeonardoBatipeda/posts/" class="facebook"
-      target="_blank"> <i class="fa-brands fa-facebook-square"> </i></a>
-      <a href="https://www.instagram.com/crframallo/" class="Instagram"
-      target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      <a href= 
-      "" class="whatsapp"
-      target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+
       <p>© CRF 2022  - Todos los derechos reservados</p> 
-  </div>
   
 </footer>
 </html>
